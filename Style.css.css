@@ -7,7 +7,7 @@ body{
 	background-position: center center;
 	background-repeat: no-repeat;
 	font-family: poppins;
-	height: 40vh;
+	height: 65vh;
 	background-color:#fff;
 	 font-family: 'Lato', sans-serif;
 	
@@ -63,7 +63,7 @@ background-color: #3399ff;
 
 
 }
-#button
+#button{
 	border: 2px white solid;
 	border-radius: 50px;
 	font-size: 40px;
@@ -216,18 +216,19 @@ img:hover{
 
 
 #AP{
-	font-size: 100px;
-	margin: 250px;
+	font-size: 26px;
+	margin: 500px;
 	margin-left: 1px;
 	margin-right: 1px;
 	border: 4px blue solid;
-	padding: 	10px;
+	padding: 	20px;
 	background-color:yellow ;
 	font-size: 40px;
 	border-radius: 10px;
 	color: red;
 	font-family:khand;
 	letter-spacing: 1px;
+	background-c
 
 	
 
@@ -238,7 +239,7 @@ img:hover{
 	margin-left: 16px;
 	margin-right: 100px;
 	border: 4px blue solid;
-	padding: 	9px;
+	padding: 	20px;
 	background-color:yellow ;
 	font-size: 40px;
 	border-radius: 10px;
@@ -258,14 +259,14 @@ a{
 	padding: 20px;
 	text-decoration: none;
 	position: all;
-	margin-top: 1250px;
+	margin-top: 1100px;
 	position: fixed;
 	
 
 
 }
 #Bharat{
-	margin-top:1650px;
+	margin-top:1500px;
 	}
 
 img{
@@ -275,4 +276,49 @@ img{
 
 p{
 	font-family: khand;
+}
+
+/* Navbar----*/
+.bg-img {
+  /* The image used */
+  background-image: url("Img/Crow.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 30px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family:PT Serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
